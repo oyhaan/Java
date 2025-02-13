@@ -17,7 +17,7 @@ Plain english - with specific rules to phrase user actions.
 - When --> action
     -> And for more than one action
 - Then --> Observations
-    -> And for more than one observation
+    -> And for more than one observation'
     -> But for caution
 
 - test cases must be reusable
