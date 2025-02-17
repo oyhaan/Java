@@ -98,7 +98,12 @@ public class Hello {
                 throw new AssertionError();
         }
 
+        
+    Bicycle bike = new Bicycle();
+    bike.makeSound();
+
     }
+
 
 
     // points to cover

@@ -23,10 +23,16 @@ public class Car {
     //getters and setters
 
     //getter
+    
+    public void makeSound() {
+        System.out.println("Car");
+    }
+
 
     public String getName() {
         return this.name;
     }
+
 
     public String getModel() {
         return this.model;
