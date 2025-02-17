@@ -1,3 +1,5 @@
+
+
 public class Hello {
    
     public static void main(String[] args) {
@@ -41,8 +43,8 @@ public class Hello {
         }
 
 
-        // enhanced for loop
-        
+        // enhanced for loop ???
+
 
 
         // Class
@@ -54,10 +56,54 @@ public class Hello {
         
         nissan.setModel("Patrol 2");
         
-        System.out.println(nissan.getName());
-        System.out.println(nissan.getModel());
-        System.out.println(Car.value);
+        // System.out.println(nissan.getName());
+        // System.out.println(nissan.getModel());
+        // System.out.println(Car.value);
         
+        // Control flow statement
+        // if/if else statement
+        if(even % 2 == 0) {
+            System.out.println("It is even");
+        } else {
+            System.out.println("It is odd");
+        }
+
+
+        if(even % 2 == 0) {
+            System.out.println("It is even");
+        } else if(even % 3 == 0) {
+            System.out.println("It is divisible by 3");
+        } else {
+            System.out.println("It is odd");
+        }
+
+        int day = 1;
+
+
+        // switch statements
+        switch (day) {
+            case 1:
+                System.out.println("Monday");
+                break;
+            case 2:
+                System.out.println("Tuesday");
+                break;
+            case 3:
+                System.out.println("Wednesday");
+                break;
+            case 4:
+                System.out.println("Thursday");
+                break;
+            default:
+                throw new AssertionError();
+        }
 
     }
+
+
+    // points to cover
+
+    // -Access modifiers
+    // -Enhanced for loop
+    // -Abstraction 
 }
